@@ -1,5 +1,5 @@
 # Frontend Mentor - Space tourism website
-## Live Demo: https://happy-goldwasser-c98709.netlify.app
+## Live Demo: https://friendly-roentgen-c69584.netlify.app
 ![Design preview for the Space tourism website coding challenge](./111-45.jpg)
 
 ## Welcome! 👋
