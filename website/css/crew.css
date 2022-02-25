@@ -1,0 +1,259 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body {
+    background-image: url("../media/crew/background-crew-desktop.jpg");
+    background-size: cover;
+    background-repeat: repeat;
+    font-family: 'Barlow Condensed', sans-serif;
+    overflow-x: hidden;
+}
+
+
+header {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 198vh;
+    height: 150px;
+}
+
+header span {
+    margin: 30px;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: white;
+    padding: 0px;
+}
+
+header nav {
+    width: 1100px;
+    margin: 5px;
+    margin-right: -60px;
+    height: 100px;
+    background: rgba(255, 255, 255, 0.192);
+    backdrop-filter: blur(10px);
+    border-radius: 5px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+nav ul li {
+    width: fit-content;
+    padding: 60px;
+    padding-bottom: 30px;
+    font-size: 23px;
+    color: white;
+    font-weight: 400;
+    padding-top: 40px;
+    letter-spacing: 3px;
+    transition: 0.2s;
+}
+
+nav ul li:hover {
+    cursor: pointer;
+    border-bottom: white solid 4px;
+    backdrop-filter: opacity(0.5);
+}
+
+nav ul li:visited {
+    border-bottom: white solid 4px;
+}
+
+#menu {
+    display: none;
+}
+
+.side-mobile {
+    position: relative;
+    height: 1160px;
+    width: 400px;
+    border: solid 2px white;
+    background-color: #0b0d17;
+    display: none;
+    margin-top: -60px;
+    margin-left: -290px;
+}
+.side-mobile nav ul{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.side-mobile nav ul li {
+    width: 250px;
+    margin-right: 35px;
+    padding-bottom: 30px;
+    padding-top: 130px;
+}
+
+#cancel {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+main {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 785px;
+    width: 198vh;
+}
+
+.content {
+    margin-top: 50px;
+    height: 700px;
+    width: 700px;
+}
+
+.person {
+    position: relative;
+    margin-top: 50px;
+    height: 700px;
+    width: 700px;
+}
+
+.content h1 {
+    color: white;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    font-weight: 100;
+    width: fit-content;
+}
+
+.content span {
+    color: #777;
+    letter-spacing: 2px;
+}
+
+.content h2 {
+    font-size: 40px;
+    color: #777;
+    letter-spacing: 1px;
+    font-weight: 100;
+    width: fit-content;
+    margin: 0px;
+    margin-top: 150px;
+    font-family: sans-serif;
+}
+
+.content h3 {
+    color: white;
+    font-weight: 100;
+    font-size: 65px;
+    margin-top: 10px;
+    letter-spacing: 5px;
+    margin-left: 0px;
+}
+
+.content p {
+    color: #d0d6f9;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+
+.slider {
+    width: 170px;
+    height: fit-content;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 90px;
+}
+
+.slider span{
+    height: 20px;
+    width: 20px;
+    border: solid 1px black;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    opacity: 0.2;
+}
+
+.slider span:hover {
+    cursor: pointer;
+    opacity: 1;
+    background-color: whitesmoke;
+}
+
+#astro {
+    position: absolute;
+    bottom: 40px;
+}
+
+
+
+@media (max-width:768px) {
+    #menu {
+        color: white;
+        font-size: 50px;
+        display: block;
+        width: fit-content;
+        height: 65px;
+        margin-top: -120px;
+        margin-left: 340px;
+    }
+
+    #cancel {
+        font-size: 50px;
+        color: white;
+        display: block;
+        margin-top: 40px;
+        margin-left: 340px;
+    }
+
+    header nav {
+        display: none;
+    }
+    
+    .side-mobile {
+        position: relative;
+        bottom: 910px;
+        left: 297px;
+    }
+
+    main {
+        width: 410px;
+        position: relative;
+        left: 40px;
+    }
+
+    #astro {
+        height: 320px;
+        bottom: 10px;
+        left: 45px;
+    }
+
+    .slider {
+        margin-top: 50px;
+        margin-left: 100px;
+    }
+
+    .person {
+        position: relative;
+        margin-top: 70px;
+        height: 400px;
+        width: 700px;
+    }
+    
+    header {
+        width: 70vh;
+    }
+}
