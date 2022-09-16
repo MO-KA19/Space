@@ -1,0 +1,75 @@
+{
+    "planets": [
+        {
+            "name": "MOON",
+            "distance": "385,000 KM",
+            "time": "3 DAYS",
+            "img": "./media/destination/image-moon.png"
+        },
+
+        {
+            "name": "MARS",
+            "distance": "225 MIL KM",
+            "time": "9 MONTHS",
+            "img": "./media/destination/image-mars.png"
+        },
+
+        {
+            "name": "EUROPA",
+            "distance": "628 MIL KM",
+            "time": "3 YEARS",
+            "img": "./media/destination/image-europa.png"
+        },
+
+        {
+            "name": "TITAN",
+            "distance": "1.6 BIL KM",
+            "time": "7 YEARS",
+            "img": "./media/destination/image-titan.png"
+        }],
+
+        
+    "crew": [
+        {
+            "name": "Douglas Hurley",
+            "job": "COMMANDER",
+            "img": "./media/crew/image-douglas-hurley.png"
+        },
+
+        {
+            "name": "MARK SHUTTLEWORTH",
+            "job": "MISSION SPECIALIST",
+            "img": "./media/crew/image-MARK-SHUTTLEWORTH.png"
+        },
+
+        {
+            "name": "Victor Glover",
+            "job": "PILOT",
+            "img": "./media/crew/image-Victor-Glover.png"
+        },
+
+        {
+            "name": "Anousheh Ansari",
+            "job": "FLIGHT ENGINEER",
+            "img": "./media/crew/image-Anousheh-Ansari.png"
+        }
+    ],
+
+    
+    "techs": [
+        {
+            "name": "LAUNCH VEHICLE",
+            "img": "./media/technology/image-launch-vehicle-portrait.jpg"
+        },
+
+        {
+            "name": "SPACEPORT",
+            "img": "./media/technology/image-spaceport-portrait.jpg"
+        },
+
+        {
+            "name": "SPACE CAPSULE",
+            "img": "./media/technology/image-space-capsule-portrait.jpg"
+        }
+    ]
+}

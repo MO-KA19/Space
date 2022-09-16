@@ -1,0 +1,224 @@
+:root {
+    --darkColor: #0B0D17;
+    --whiteGlory: #D0D6F9;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Barlow', sans-serif;
+    background-image: url("../media/crew/background-crew-desktop.jpg");
+    background-color: rgba(0, 0, 0, 0.45);
+    background-blend-mode: darken;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: inherit;
+}
+
+header {
+    width: auto;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav {
+    padding: 40px;
+    margin-top: 24px;
+    background-color: transparent;
+    backdrop-filter: blur(16px);
+}
+
+nav ul li a {
+    color: white;
+    font-size: 24px;
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 4px;
+    padding: 45px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: .5s;
+}
+
+.logo {
+    padding: 50px;
+    margin-top: 24px;
+}
+
+nav ul li a:hover {
+    opacity: 0.5;
+}
+
+main {
+    padding-left: 100px;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    width: 900px;
+    height: fit-content;
+    padding: 40px;
+}
+
+.container h1 span, .details h1 {
+    color: #777;
+    font-weight: 100;
+}
+
+.title {
+    color: white;
+    font-weight: 600;
+    font-size: 32px;
+    padding-bottom: 50px;
+    letter-spacing: 6px;
+    font-family: 'Bellefair', serif;
+}
+
+.details {
+    margin-top: 130px;
+}
+
+.details h2{
+    color: white;
+    font-size: 56px;
+}
+
+.details p {
+    padding-top: 32px;
+    color: var(--whiteGlory);
+    font-size: 18px;
+    line-height: 32px;
+    word-spacing: 1px;
+}
+
+.dots {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+    margin: 0;
+    margin-top: 75px;
+}
+
+.dots span {
+    height: 15px;
+    width: 15px;
+    background-color: #777;
+    border-radius: 50%;
+    transition: .3s;
+    margin: 0;
+}
+
+.dots span:hover {
+    opacity: 0.5;
+}
+
+.dots span:active {
+    background-color: white;
+}
+
+.container img {
+    margin-left: 75px;
+    height: 700px;
+}
+
+
+
+
+
+
+@media (max-width:1440px) {
+    html {
+        width: fit-content;
+    }
+
+    body {
+        width: fit-content;
+    }
+
+    header {
+        width: 1440px;
+    }
+    
+    .container {
+        height: fit-content;
+        width: auto;
+    }
+
+    .container img {
+        height: 550px;
+    }
+}
+
+
+
+
+@media (max-width:450px) {
+
+    body {
+        background-image: url("../media/destination/background-destination-mobile.jpg");
+    }
+
+    header {
+        width: 400px;
+    }
+
+    nav {
+        padding: 0;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li a {
+        font-size: 18px;
+        letter-spacing: 2px;
+        padding: 0;
+    }
+
+    main {
+        flex-wrap: wrap;
+        padding-left: 0px;
+    }
+
+    .container {
+        width: fit-content;
+        height: fit-content;
+    }
+
+    .container img {
+        margin-left: 0;
+        height: 300px;
+    }
+
+    .title {
+        margin-top: 32px;
+        font-size: 24px;
+    }
+
+    .details h2 {
+        color: white;
+        font-size: 32px;
+    }
+
+    .details h1 {
+        color: #777;
+        font-size: 24px;
+    }
+}
